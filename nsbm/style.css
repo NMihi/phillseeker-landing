@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .navigation {
+    flex-basis: 25%;
+    background-color: green;
+    align-items: center;
+  }
+  
+  .content {
+    flex-basis: 75%;
+    background-color: white;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 ;auto;
+  }
+  
+  .navigation li {
+    margin: 10px;
+  }
+  
+  .navigation a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    padding: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+ 
